@@ -1,0 +1,30 @@
+.home-page {
+    background-image: url("https://images1.ynet.co.il/PicServer5/2020/04/04/9889942/988993701000100980652no.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .content {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+  }
+  
+  .title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 24px;
+    font-style: italic;
+  }
+  

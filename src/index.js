@@ -17,10 +17,10 @@ ReactDOM.render(
     {/* Add array of routes, each route will tell which component to render
   in a certain path */}
     <Routes>
-      <Route path="/home" element={<HomePage />} />
-      <Route path="/about" element={<AboutMe />} />
-      <Route path="/items" element={<Cars />} />
-      <Route path="/contactus" element={<AddCar />} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="/AboutMe" element={<AboutMe />} />
+      <Route path="/CarsPage" element={<Cars />} />
+      <Route path="/AddCar" element={<AddCar />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")
