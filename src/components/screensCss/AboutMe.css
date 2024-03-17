@@ -1,0 +1,33 @@
+.about-me-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    background-image: url("https://media.istockphoto.com/id/1443133612/photo/hay-rolls-with-lake-and-rising-geese-at-sunrise-howard-county-indiana.jpg?s=612x612&w=0&k=20&c=dFkP-Sj14fipWU5kg82qwy82R1eXO59YGFnXCPAozx4=");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .about-me-content {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me-heading {
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-me-paragraph {
+    margin-bottom: 15px;
+  }
+  
