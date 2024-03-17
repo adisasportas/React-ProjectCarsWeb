@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import MyRouter from "./components/navBar/MyRouter";
+import Footer from"./components/footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/screens/HomePage";
 import AboutMe from "./components/screens/AboutMe";
@@ -12,6 +13,7 @@ import AddCar from "./components/screens/AddCar";
 ReactDOM.render(
   <BrowserRouter>
   <MyRouter />
+  <Footer />
     {/* Add array of routes, each route will tell which component to render
   in a certain path */}
     <Routes>
