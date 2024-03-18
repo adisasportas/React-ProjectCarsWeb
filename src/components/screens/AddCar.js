@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "../screensCss/AddCar.css";
 
 const AddCar = ({ onAddCar }) => {
   const [brend, setBrend] = useState('');
@@ -12,9 +13,11 @@ const AddCar = ({ onAddCar }) => {
     setBrend('');
     setModel('');
     setYear('');
+    alert('Car added successfully!'); // פסקתי את התוכן הזה להוסיף הודעת התראה
   };
   return (
-    <div>
+    <div className="pic-container">
+    <div className="container"> {/* עיצוב הדף מרכז את האלמנטים */}
       <h2>Add Car</h2>
       <form onSubmit={handleSubmit}>
         <div>
@@ -31,6 +34,7 @@ const AddCar = ({ onAddCar }) => {
         </div>
         <button type="submit">Add Car</button>
       </form>
+    </div>
     </div>
   );
 };

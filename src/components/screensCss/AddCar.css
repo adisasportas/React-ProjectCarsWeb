@@ -1,0 +1,50 @@
+/* סגנון עבור כותרת הדף */
+h2 {
+    color: #333; /* צבע כותרת */
+    text-align: center; /* מרכוז כותרת */
+  }
+  
+  /* סגנון עבור הטופס */
+  form {
+    max-width: 400px; /* רוחב מרבי לפורמט */
+    margin: 0 auto; /* מרכז את הפורמט באופן אוטומטי */
+    padding: 20px; /* מרווחים פנימיים */
+    border: 1px solid #ccc; /* גבול */
+    border-radius: 5px; /* פינות מעוגלות */
+  }
+  
+  /* סגנון עבור ה-labels */
+  label {
+    display: block; /* תצוגה כבלוק (בשורה נפרדת) */
+    margin-bottom: 5px; /* מרווח מתחת ל-label */
+    color: #333; /* צבע הכתב */
+  }
+  
+  /* סגנון עבור ה-inputs */
+  input[type="text"] {
+    width: 100%; /* רוחב מלא */
+    padding: 10px; /* גודל המרווחים */
+    margin-bottom: 10px; /* מרווח מתחת ל-input */
+    border: 1px solid #ccc; /* גבול */
+    border-radius: 5px; /* פינות מעוגלות */
+    box-sizing: border-box; /* גודל ה-input כולל padding ו-border */
+  }
+  
+  /* סגנון עבור הכפתור */
+  button[type="submit"] {
+    background-color: #007bff; /* צבע רקע */
+    color: #fff; /* צבע טקסט */
+    padding: 10px 20px; /* מרווחים */
+    border: none; /* אין גבול */
+    border-radius: 5px; /* פינות מעוגלות */
+    cursor: pointer; /* סמן יד */
+    font-size: 16px; /* גודל הכתב */
+    text-transform: uppercase; /* המרת הטקסט לאותיות גדולות */
+    transition: background-color 0.3s ease; /* אנימציה */
+  }
+  
+  /* סגנון עבור הכפתור כאשר העכבר עובר עליו */
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* צבע רקע כאשר העכבר מעל הכפתור */
+  }
+  

@@ -1,0 +1,41 @@
+/* סגנון עבור תיבת השגיאה */
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+/* סגנון עבור הודעת הטעינה */
+.loading {
+  font-style: italic;
+}
+
+/* סגנון עבור רשימת הרכבים */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* סגנון עבור כל פריט ברשימת הרכבים */
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* סגנון עבור התמונה של הרכב */
+li img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+/* סגנון עבור הכפתור למחיקת הרכב */
+li button {
+  margin-top: 10px;
+  cursor: pointer;
+}
