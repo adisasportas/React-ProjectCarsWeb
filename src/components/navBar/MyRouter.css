@@ -1,41 +1,25 @@
-/* סגנון עבור הקישורים בתפריט הניווט */
-.nav-link {
-  color: #fff; /* צבע הטקסט */
-  text-decoration: none; /* הסרת קו תחתון */
-  font-size: 16px; /* גודל הטקסט */
-  font-weight: bold; /* משקל הטקסט */
-  padding: 8px 16px; /* מרווחים */
-  border-radius: 8px; /* פינות מעוגלות */
-  background: #616161; /* צבע רקע של הכפתור */
-  border: 1px solid #757575; /* גבול סביב הכפתור */
-  margin: 15px; /* מרווחים */
-  transition: background 0.3s ease, color 0.3s ease; /* אנימציה */
-}
-
-/* סגנון עבור כאשר העכבר חוסך על הקישור */
-.nav-link:hover {
-  background: #757575; /* צבע רקע */
-}
-
-/* סגנון עבור האייקון או הלוגו בתפריט הניווט */
-.navbar img {
-  width: 100px; /* רוחב התמונה */
-  height: auto; /* גובה התמונה מתאים אוטומטית */
-}
-
-/* סגנון עבור כל פריט בתפריט הניווט */
-.nav-item {
-  margin: 0 10px; /* מרווחים בין פריטי התפריט */
-}
-
-/* סגנון עבור הרקע של תפריט הניווט */
 .navbar {
-  background: #424242; /* צבע הרקע */
-  color: #fff; /* צבע הטקסט */
-  padding: 10px; /* רווחים */
-  display: flex; /* תצוגה של flex */
-  justify-content: space-between; /* מרכוז כפתורי הניווט */
-  align-items: center; /* מרכוז האלמנטים */
-  border: 2px solid gold; /* מסגרת מזהב */
-  border-radius: 10px; /* פינות מעוגלות */
+  background-color: #424242;
+  color: #fff;
+  padding: 10px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #ccc;
 }

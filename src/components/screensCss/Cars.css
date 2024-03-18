@@ -1,41 +1,51 @@
-/* סגנון עבור תיבת השגיאה */
-.error {
-  color: red;
-  font-weight: bold;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* אפשר לשנות את הגובה לפי הצורך */
 }
 
-/* סגנון עבור הודעת הטעינה */
-.loading {
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.error-message {
+  color: red;
+}
+
+.loading-message {
   font-style: italic;
 }
 
-/* סגנון עבור רשימת הרכבים */
-ul {
-  list-style-type: none;
+.car-list {
+  list-style: none;
   padding: 0;
 }
 
-/* סגנון עבור כל פריט ברשימת הרכבים */
-li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #f0f0f0;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.car-list-item {
+  margin-bottom: 10px;
 }
 
-/* סגנון עבור התמונה של הרכב */
-li img {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 15px;
-  border-radius: 50%;
-}
-
-/* סגנון עבור הכפתור למחיקת הרכב */
-li button {
-  margin-top: 10px;
+.add-car-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-car-button:hover {
+  background-color: #0056b3;
 }
