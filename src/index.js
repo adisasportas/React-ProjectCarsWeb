@@ -9,7 +9,7 @@ import HomePage from "./components/screens/HomePage";
 import AboutMe from "./components/screens/AboutMe";
 import Cars from "./components/screens/Cars";
 import CarsSearch from "./components/screens/CarSearch";
-
+import ConnectUs from"./components/screens/ConnectUs";
 ReactDOM.render(
   <BrowserRouter>
   <MyRouter />
@@ -20,7 +20,7 @@ ReactDOM.render(
       <Route path="/" element={<HomePage />} />
       <Route path="/AboutMe" element={<AboutMe />} />
       <Route path="/Cars" element={<Cars />} />
-      
+      <Route path="/ConnectUs" element={<ConnectUs />} />
       <Route path="/CarsSearch" element={<CarsSearch />} />
     </Routes>
   </BrowserRouter>,

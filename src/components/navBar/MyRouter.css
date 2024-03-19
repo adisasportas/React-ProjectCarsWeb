@@ -24,9 +24,39 @@
   padding: 8px 20px; /* גודל הכפתור */
   border: 2px solid #ffd700; /* מסגרת מזהב */
   border-radius: 20px; /* פינות מעוגלות */
+  display: flex;
 }
 
 .nav-link:hover {
   background-color: #ffd700; /* רקע מזהב בעת העברת העכבר */
   color: #424242; /* כתב שחור בעת העברת העכבר */
+}
+.current-time {
+  color: rgb(211, 199, 28); /* צבע הטקסט */
+  font-size: 18px; /* גודל הגופן */
+  margin-left: px; /* מרווח משמאל */
+}
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ConnectUs-nav-item {
+  margin-left: 150px; /* רווח בין הלינקים */
+  color: rgb(211, 199, 28); /* צבע הטקסט */
+  font-size: 18px; /* גודל הגופן */
+  
+}
+.ConnectUsnav-link:hover {
+  background-color: #ffd700; /* רקע מזהב בעת העברת העכבר */
+  color: #424242; /* כתב שחור בעת העברת העכבר */
+}
+.ConnectUsnav-link{
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 20px; /* גודל הכפתור */
+  border: 2px solid #ffd700; /* מסגרת מזהב */
+  border-radius: 20px; /* פינות מעוגלות */
+  display: flex;
 }

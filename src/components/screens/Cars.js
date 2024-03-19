@@ -31,13 +31,13 @@ const Cars = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const newCar = { make, model, year: parseInt(year, 10) || year ,vclass};
+    const newCar = { make, model, year: parseInt(year, 10) || year, vclass };
     setCars(currentCars => [...currentCars, newCar]);
     // Clear the input fields after adding a new car
     setMake('');
     setModel('');
     setYear('');
-    setCars('');
+    // setCars('');
     alert('Car added successfully!');
   };
 
@@ -50,7 +50,7 @@ const Cars = () => {
         <>
           <div className="add-car-background pic-container">
             <div className="containerdivinput">
-              <h1 >Add Car</h1>
+              <h1>Add Car</h1>
               <form onSubmit={handleSubmit}>
                 <div>
                   <label>Brand Car :</label>
@@ -62,13 +62,13 @@ const Cars = () => {
                 </div>
                 <div>
                   <label>Year Car :</label>
-                  <input type="text" className="addcar"  value={year} onChange={(e) => setYear(e.target.value)} />
-                  </div>
-                  <div>
-                 <label>Class Car :</label>
-                  <input type="text" className="addcar"  value={vclass} onChange={(e) => setClass(e.target.value)} />
+                  <input type="text" className="addcar" value={year} onChange={(e) => setYear(e.target.value)} />
                 </div>
-                <button type="submit" className="addcar" >Add Car</button>
+                <div>
+                  <label>Class Car :</label>
+                  <input type="text" className="addcar" value={vclass} onChange={(e) => setClass(e.target.value)} />
+                </div>
+                <button type="submit" className="addcar">Add Car</button>
               </form>
             </div>
           </div>

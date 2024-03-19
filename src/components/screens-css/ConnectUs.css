@@ -1,0 +1,85 @@
+body {
+    background-color: #f1dd66; /* צבע רקע זהב */
+  }
+  
+  .connect-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* רקע צבע לבן */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* הוספת צל לקופסת התוכן */
+    border: 1px solid #d4ec25;
+  }
+
+
+.connect-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #868585;
+    color:#f3ebeb;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    color:#f3ebeb;
+  }
+  
+  .contact-item {
+    flex: 1;
+    margin-right: 20px;
+    color:#f3ebeb;
+  }
+  
+  .contact-item h2 {
+    font-size: 1.2rem;
+    color:#f3ebeb;
+  }
+  
+  .contact-item p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color:#f3ebeb;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color:#f4f3f3
+  }
+  .input-container {
+    background-color: #716b6b; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #d4ec25
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d4ec25;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3a3af4;
+    color: #f8f1f1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #534be8;
+  }
+  
