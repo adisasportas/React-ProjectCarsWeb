@@ -2,6 +2,9 @@
   background-color: #424242;
   color: #fff;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-menu {
@@ -18,8 +21,12 @@
 .nav-link {
   color: #fff;
   text-decoration: none;
+  padding: 8px 20px; /* גודל הכפתור */
+  border: 2px solid #ffd700; /* מסגרת מזהב */
+  border-radius: 20px; /* פינות מעוגלות */
 }
 
 .nav-link:hover {
-  color: #ccc;
+  background-color: #ffd700; /* רקע מזהב בעת העברת העכבר */
+  color: #424242; /* כתב שחור בעת העברת העכבר */
 }

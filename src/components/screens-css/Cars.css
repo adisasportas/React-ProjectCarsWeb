@@ -1,0 +1,91 @@
+.Cars{
+  min-height: calc(100vh - 200px); /* גובה מינימלי של 100vh פחות 200px */
+  background-image: url('https://cdn.pixabay.com/photo/2014/10/22/17/22/car-498244_1280.jpg');
+  background-size: 100% auto;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 200px; /* מרווח תחתון */
+}
+.add-car-background {
+  margin-bottom: 50px; /* מרווח מתחת */
+}
+
+.addcar {
+  margin-top: 5px; /* מרווח מלמעלה */
+  padding: 10px; /* מרווח פנימי */
+  border: 1px solid #0c0909; /* גבול */
+  border-radius: 5px; /* פינות מעוגלות */
+}
+
+.addcar:focus {
+  outline: none; /* ללא קו מודגש בפוקוס */
+}
+
+.addcar-button {
+  margin-top: 10px; /* מרווח מלמעלה */
+  padding: 10px 20px; /* מרווח פנימי */
+  background-color: #007bff; /* רקע כחול */
+  color: #fff; /* כתב לבן */
+  border: none; /* ללא גבול */
+  border-radius: 5px; /* פינות מעוגלות */
+  cursor: pointer; /* סמן עכבר */
+}
+
+.addcar-button:hover {
+  background-color: #0056b3; /* רקע כחול כהה בעכבר מעל */
+}
+
+.car-list {
+  display: flex; /* תצוגה כ-Flexbox */
+  flex-wrap: wrap; /* מעטים יתרון */
+  justify-content: space-between; /* מרחק שווה בין האלמנטים */
+}
+
+.car-item {
+  width: calc(20% - 20px); /* רוחב של כ-20% מהמסך עם מרווח בין האלמנטים */
+  margin-bottom: 20px; /* מרווח מתחת */
+  padding: 10px; /* מרווח פנימי */
+  background-color: #e0d6d6c9; /* רקע אפור בהיר */
+  border-radius: 15px; /* פינות מעוגלות */
+  
+}
+.containerdivinput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.car-form {
+  width: 80%; /* רוחב קבוע לתוך המסך */
+  max-width: 400px; /* רוחב מקסימלי */
+}
+
+.addcar {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #040c07;
+  color: #ebf5eb;
+  background-color: rgb(38, 23, 182);
+}
+
+label {
+  color: rgb(245, 239, 239);
+  size: 3cm;
+  background-color:#363535;
+  
+}
+
+input[type="text"] {
+  background-color: #6b6a6a; /* אפור */
+  color: rgb(243, 232, 232);
+  padding: 10px; /* הוספת רווח בין התוכן לגבולות */
+}
+h1 {
+  color: #f1f1eb; /* צבע הכתב */
+  background-color: #312c2c; /* רקע כהה */
+  padding: 10px; /* הוספת רווח בין התוכן לגבולות */
+  margin: 10px;
+}

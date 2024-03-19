@@ -1,0 +1,60 @@
+.CarsSearchcars-page {
+    min-height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/157286698/photo/tow-truck-hauling-a-new-red-car.jpg?s=2048x2048&w=is&k=20&c=urYoFAXj_C0k3s3-71amQmd8_bVbo_2PKC2chPoB3KM=');
+    background-size: 100% auto;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* ייחודית לאמצע הדף */
+    padding-bottom: 70px;
+  }
+  
+  .CarsSearchcontainer {
+    width: 80%; /* רוחב קבוע לתוך המסך */
+    max-width: 1200px; /* רוחב מקסימלי */
+  }
+  
+  .CarsSearch-container {
+    width: 100%; /* רוחב מקסימלי */
+    margin-bottom: 25px; /* מרווח מתחת */
+  }
+  
+  .CarsSearcherror-message {
+    color: red; /* צבע כתב אדום */
+  }
+  
+  .CarsSearchloading-message {
+    color: blue; /* צבע כתב כחול */
+  }
+  
+  .CarsSearch-list {
+    display: flex; /* תצוגה כ-Flexbox */
+    flex-wrap: wrap; /* מעטים יתרון */
+    justify-content: space-between; /* מרחק שווה בין האלמנטים */
+    background-color: rgba(61, 56, 56, 0); /* רקע אפור בהיר */
+    color: #ebdede;
+  }
+  
+  .CarsSearch-property {
+    margin-bottom: 5px; /* מרווח מתחת */
+     /* צבע הכתב */
+  }
+  
+  .CarsSearch-item {
+    width: calc(20% - 20px); /* רוחב של כ-20% מהמסך עם מרווח בין האלמנטים */
+    margin-bottom: 20px; /* מרווח מתחת */
+    padding: 10px; /* מרווח פנימי */
+    background-color: #3b3939a9; /* רקע אפור */
+    border-radius: 15px; /* פינות מעוגלות */
+  }
+  
+  .search-input {
+    margin-top: 10px;
+    width: 100%; /* רוחב מקסימלי */
+    padding: 10px; /* מרווח פנימי */
+    border-radius: 8px; /* פינות מעוגלות */
+    border: 1px solid #e4dbdb; /* גבול */
+    background-color: #312b2be3; /* רקע אפור */
+    color: #ffffff; /* צבע הטקסט */
+  }
+  

@@ -1,42 +1,72 @@
-import React, { useState } from 'react';
-import "../screensCss/AddCar.css";
+// import React, { useState, useEffect } from 'react';
+// import "../screens-css/AddCar.css"; 
 
-const AddCar = ({ onAddCar }) => {
-  const [brend, setBrend] = useState('');
-  const [model, setModel] = useState('');
-  const [year, setYear] = useState('');
+// const AddCars = () => {
+//   const [cars, setCars] = useState([]);
+//   const [searchTerm, setSearchTerm] = useState('');
+//   const [loading, setLoading] = useState(true);
+//   const [error, setError] = useState(null);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const newCar = { brend, model, year };
-    onAddCar(newCar);
-    setBrend('');
-    setModel('');
-    setYear('');
-    alert('Car added successfully!'); // פסקתי את התוכן הזה להוסיף הודעת התראה
-  };
-  return (
-    <div className="pic-container">
-    <div className="container"> {/* עיצוב הדף מרכז את האלמנטים */}
-      <h2>Add Car</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Brand:</label>
-          <input type="text" value={brend} onChange={(e) => setBrend(e.target.value)} />
-        </div>
-        <div>
-          <label>Model:</label>
-          <input type="text" value={model} onChange={(e) => setModel(e.target.value)} />
-        </div>
-        <div>
-          <label>Year:</label>
-          <input type="text" value={year} onChange={(e) => setYear(e.target.value)} />
-        </div>
-        <button type="submit">Add Car</button>
-      </form>
-    </div>
-    </div>
-  );
-};
+//   useEffect(() => {
+//     fetch("https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/all-vehicles-model/records?limit=15")
+//       .then(response => {
+//         if (!response.ok) {
+//           throw new Error('Network response was not ok');
+//         }
+//         return response.json();
+//       })
+//       .then(data => {
+  
+//         setCars(data.results); 
+//         setLoading(false);
+//       })
+//       .catch(error => {
+//         console.error('Error fetching data:', error);
+//         setError('Error fetching data');
+//         setLoading(false);
+//       });
+//   }, []);
 
-export default AddCar;
+//   const filterCars = (cars, searchTerm) => {
+//     return cars.filter(car => {
+//       const makeMatch = car.make.toLowerCase().includes(searchTerm.toLowerCase());
+//       const modelMatch = car.model.toLowerCase().includes(searchTerm.toLowerCase());
+//       const yearMatch = car.year.toString().toLowerCase().includes(searchTerm.toLowerCase());
+//       const vclassMatch = car.vclass && car.vclass.toLowerCase().includes(searchTerm.toLowerCase()); // Added check for existence of car.vclass
+//       return makeMatch || modelMatch || yearMatch || vclassMatch;
+//     });
+//   };
+
+//   return (
+//     <div className="Addcars-page">
+//       <div className="container">
+//         <div className="search-container">
+//           <input
+//             className="search-input"
+//             type="text"
+//             placeholder="Search by Brand, Model, Year, or Class:"
+//             value={searchTerm}
+//             onChange={e => setSearchTerm(e.target.value)}
+//           />
+//         </div>
+//         {error && <p className="error-message">Error: {error}</p>}
+//         {loading ? (
+//           <p className="loading-message">Loading...</p>
+//         ) : (
+//           <div className="car-list">
+//             {filterCars(cars, searchTerm).map((car, index) => (
+//               <div key={index} className="car-item">
+//                 <div className="car-property">Brand Car: {car.make}</div>
+//                 <div className="car-property">Model Car: {car.model}</div>
+//                 <div className="car-property">Year Car: {car.year}</div>
+//                 <div className="car-property">Class Car: {car.vclass}</div>
+//               </div>
+//             ))}
+//           </div>
+//         )}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default AddCars;

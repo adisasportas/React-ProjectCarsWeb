@@ -1,5 +1,5 @@
 import React from "react";
-import  { Outlet, Link } from "react-router-dom";
+import  {  Link } from "react-router-dom";
 import "./MyRouter.css";
 export default function MyRouter() {
   return (
@@ -16,10 +16,10 @@ export default function MyRouter() {
           <img src="https://cdn.pixabay.com/photo/2023/12/19/18/14/icon-8458165_1280.jpg" alt="Site Logo" style={{ width: '100px', height: 'auto' }} />
           </Link>
           <li className="nav-item">
-            <a href="/CarsPage" className="nav-link">Cars Page</a>
+            <a href="/Cars" className="nav-link">Add Cars</a>
             </li>
           <li className="nav-item">
-            <a href="/AddCar" className="nav-link">Add Car</a>
+            <a href="/CarsSearch" className="nav-link">Search Car</a>
           </li>
         </ul>
       </nav>

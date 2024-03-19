@@ -1,5 +1,5 @@
 import React from 'react';
-import '../screensCss/AboutMe.css'; // ייבוא קובץ ה-CSS
+import '../screens-css/AboutMe.css'; // ייבוא קובץ ה-CSS
 
 export default function AboutMe() {
   return (

@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/screens/HomePage";
 import AboutMe from "./components/screens/AboutMe";
 import Cars from "./components/screens/Cars";
-import AddCar from "./components/screens/AddCar";
+import CarsSearch from "./components/screens/CarSearch";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -19,8 +19,9 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/AboutMe" element={<AboutMe />} />
-      <Route path="/CarsPage" element={<Cars />} />
-      <Route path="/AddCar" element={<AddCar />} />
+      <Route path="/Cars" element={<Cars />} />
+      
+      <Route path="/CarsSearch" element={<CarsSearch />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")
