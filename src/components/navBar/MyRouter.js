@@ -38,7 +38,7 @@ export default function MyRouter() {
             <a href="/CarsSearch" className="nav-link">Search Car</a>
             </li>
             <li className="ConnectUs-nav-item">
-            <a href="/ConnectUs" className="ConnectUsnav-link">Connect Us</a>
+            <a href="/ConnectUs" className="nav-link">Connect Us Car</a>
           </li>
         </ul>
       </nav>

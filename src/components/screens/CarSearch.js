@@ -84,8 +84,8 @@ const CarsSearch = () => {
                   <div className="CarsSearch-property">Year Car: {car.year}</div>
                   {selectedCarIndex === index && (
                     <div className="additional-details">
-                      <div className="CarsSearch-property">Model Car: {car.model}</div>
-                      <div className="CarsSearch-property">VClass Car: {car.vclass}</div>
+                      <div className="CarsSearch-property">Model: {car.model}</div>
+                      <div className="CarsSearch-property">VClass: {car.vclass}</div>
                       <button className="close-button" onClick={(e) => {e.stopPropagation(); setSelectedCarIndex(null);}}>Close</button>
                     </div>
                   )}
