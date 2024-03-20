@@ -19,11 +19,13 @@
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     color: white;
+  
   }
   .title {
     font-size: 48px;
     margin-bottom: 20px;
     align-items: center; /* ייחודית לאמצע הדף */
+
   }
   
   .description {

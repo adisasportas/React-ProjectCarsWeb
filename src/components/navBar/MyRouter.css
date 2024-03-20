@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid #ffd700; /* מסגרת מזהב */
 }
 
 .nav-menu {
@@ -40,6 +41,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+ 
 }
 
 .ConnectUs-nav-item {

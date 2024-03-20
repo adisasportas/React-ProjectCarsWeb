@@ -46,15 +46,59 @@
     padding: 10px; /* מרווח פנימי */
     background-color: #3b3939a9; /* רקע אפור */
     border-radius: 15px; /* פינות מעוגלות */
+    
   }
   
-  .search-input {
-    margin-top: 10px;
-    width: 100%; /* רוחב מקסימלי */
-    padding: 10px; /* מרווח פנימי */
-    border-radius: 8px; /* פינות מעוגלות */
-    border: 1px solid #e4dbdb; /* גבול */
-    background-color: #312b2be3; /* רקע אפור */
-    color: #ffffff; /* צבע הטקסט */
+  .CarsSearchSearch-input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px; /* יש לשנות את הערך לפי המרחק הרצוי */
+    margin-top: 15px;
+    
   }
   
+  .CarsSearchSearchBrand-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  }
+  
+  .CarsSearchButton-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  .CarsSearchSearchYear-input{
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px; /* יש לשנות את הערך לפי המרחק הרצוי */
+  }
+ 
+  .textMoreFilter{
+    color :#fff;
+  }
+  .CarsSearchSearch-input::placeholder {
+    color: #f3efef; /* צבע ה-placeholder */
+  }
+
+  .close-button {
+    padding: 6px 10px; /* שינוי הגודל של הכפתור */
+    border: none;
+    border-radius: 4px;
+    background-color: red; /* צבע הרקע */
+    color: white; /* צבע הטקסט */
+    font-size: 14px; /* גודל הטקסט */
+  }
+  
+  .close-button:hover {
+    background-color: darkred; /* צבע הרקע בעת העכבר מעל הכפתור */
+  }

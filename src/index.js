@@ -22,6 +22,10 @@ ReactDOM.render(
       <Route path="/Cars" element={<Cars />} />
       <Route path="/ConnectUs" element={<ConnectUs />} />
       <Route path="/CarsSearch" element={<CarsSearch />} />
+      <Route
+        path="*"
+        element={<h3 className="text-center">404 - page not found!</h3>}
+        />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")
