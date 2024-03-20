@@ -61,13 +61,14 @@
 #### Here you can see pictures of the website pages:
 
 ## Home Page Screen IMG:
-./ScreenshotsProject/HomePage.png;
+![Home age](src/screensPic/HomePage.png)
 
 ## Add a Vehicle Page Screen IMG:
 ./ScreenshotsProject/AddaVehiclePage.png
+![Add a Vehicle Page](src/screensPic/AddaVehiclePage.png)
 
-## About Me Page Screen IMG:
-./ScreenshotsProject/AboutMePage.png
+## About Me Page Screen IMG
+![About Me Page](src/screensPic/AboutMePage.png)
 
 ## Connect to Us Page Screen IMG:
-./ScreenshotsProject/ConnectToUsPage.png
+![Connect To Us Page](src/screensPic/ConnectToUsPage.png)
