@@ -1,44 +1,44 @@
-###### Vehicle Website React Poject 
+# Vehicle Website React Poject 
 ###
 
-#### Vehicle Website Documentation
+## Vehicle Website Documentation
 
 ### This documentation provides an overview of the features and functionality of the Vehicle Website.
 
-## Home Page
+#### Home Page
 - The home page serves as the landing page for the website.
 - Users can navigate to other pages using the navigation menu.
 
-## Vehicle Search Page
+#### Vehicle Search Page
 - The vehicle search page allows users to filter vehicles by brand and specific year.
 - Initial search by brand displays minimal information about the brand name.
 - Secondary search by year displays additional details such as the year of the vehicle along with the brand.
 
-# Vehicle Details 
+###### Vehicle Details 
 - Users can click on a vehicle to view detailed information, including additional features.
 - There is an option to toggle between displaying all features and minimizing the display to show only essential features.
 
-## Add a Vehicle Page
+#### Add a Vehicle Page
 - On the "Add a Vehicle" page, users can add a new vehicle to the database.
 - Specific fields are required to be filled in to add the vehicle to the database.
 
-## About Me Page
+###### About Me Page
 - The "About Me" page provides information about the website and its purpose.
 - Users can get an impression of the website's creators and its objectives.
 
-## Connect to Us Page
+#### Connect to Us Page
 - The "Connect to Us" page allows users to contact site administrators by filling in an email and name.
 - Users can submit queries or feedback directly to the site administrators.
 
-## Data Source
+#### Data Source
 - The website retrieves vehicle data through an API, which is sourced from a JSON file.
 
-## URL Navigation
+#### URL Navigation
 - All pages are accessible via unique URLs.
 - If the URL entered is incorrect, the website displays a 404 error message with a link back to the home page for navigation.
 ###
 
-## In the project directory, you can run:
+### In the project directory, you can run:
 
 1. `npm start`
 
@@ -58,17 +58,20 @@
    
 5. `npm i`
 
-#### Here you can see pictures of the website pages:
+## Here you can see pictures of the website pages:
 
-## Home Page Screen IMG:
-![HomePage](src/screensPic/HomePage.png)
+### Home Page Screen IMG:
+![HomePage](./src/ScreenshotsProject/HomePage.png)
 
-## Add a Vehicle Page Screen IMG:
+### Vehicle Search Page IMG:
+![VehicleSearchPage](./src/ScreenshotsProject/VehicleSearchPage+.png)
 
-![AddaVehiclePage](src/screensPic/AddaVehiclePage.png)
+### Add a Vehicle Page Screen IMG:
 
-## About Me Page Screen IMG
-![AboutMePage](src/screensPic/AboutMePage.png)
+![AddaVehiclePage](./src/ScreenshotsProject/AddaVehiclePage.png)
 
-## Connect to Us Page Screen IMG:
-![ConnectToUsPage](src/screensPic/ConnectToUsPage.png)
+### About Me Page Screen IMG
+![AboutMePage](./src/ScreenshotsProject/AboutMePage.png)
+
+### Connect to Us Page Screen IMG:
+![ConnectToUsPage](./src/ScreenshotsProject/ConnectToUsPage.png)
