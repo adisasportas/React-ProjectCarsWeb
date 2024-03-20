@@ -64,7 +64,7 @@
 ![Home age](src/screensPic/HomePage.png)
 
 ## Add a Vehicle Page Screen IMG:
-./ScreenshotsProject/AddaVehiclePage.png
+
 ![Add a Vehicle Page](src/screensPic/AddaVehiclePage.png)
 
 ## About Me Page Screen IMG
