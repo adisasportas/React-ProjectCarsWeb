@@ -14,7 +14,7 @@
 - Initial search by brand displays minimal information about the brand name.
 - Secondary search by year displays additional details such as the year of the vehicle along with the brand.
 
-## Vehicle Details Page
+# Vehicle Details 
 - Users can click on a vehicle to view detailed information, including additional features.
 - There is an option to toggle between displaying all features and minimizing the display to show only essential features.
 
@@ -58,4 +58,16 @@
    
 5. `npm i`
 
-### Here you can see pictures of the website pages:
+#### Here you can see pictures of the website pages:
+
+## Home Page Screen IMG:
+./ScreenshotsProject/HomePage.png;
+
+## Add a Vehicle Page Screen IMG:
+./ScreenshotsProject/AddaVehiclePage.png
+
+## About Me Page Screen IMG:
+./ScreenshotsProject/AboutMePage.png
+
+## Connect to Us Page Screen IMG:
+./ScreenshotsProject/ConnectToUsPage.png
